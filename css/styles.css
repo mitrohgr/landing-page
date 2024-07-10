@@ -7,3 +7,29 @@ html {
 *::after {
   box-sizing: inherit;
 }
+
+body {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1f2937;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: bold;
+}
+
+.links ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  gap: 24px;
+  font-size: 18px;
+  color: #e5e7eb;
+}
