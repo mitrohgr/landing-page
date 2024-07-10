@@ -33,3 +33,52 @@ body {
   font-size: 18px;
   color: #e5e7eb;
 }
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  padding: 60px 0;
+  gap: 32px;
+}
+
+.hero .container1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+  flex-basis: 610px;
+  padding: 25px 0;
+  flex-basis: 400px;
+}
+
+.hero .container2 {
+  flex-basis: 650px;
+  padding: 110px;
+  text-align: center;
+  background-color: grey;
+  color: #e5e7eb;
+}
+
+.hero .text {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.hero .subtext {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero button {
+  font-size: 18px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 8px 24px;
+  border-radius: 10px 10px;
+  border-style: none;
+}
