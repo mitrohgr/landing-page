@@ -87,3 +87,39 @@ body {
   border-radius: 10px 10px;
   border-style: none;
 }
+
+.info .text {
+  font-size: 38px;
+  font-weight: bold;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.info .container1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+}
+
+.info .container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  gap: 8px;
+}
+
+.info .subtext {
+  text-align: center;
+  font-size: 18px;
+}
+
+.info .box {
+  width: 150px;
+  height: 150px;
+  border: 4px solid #3882f6;
+  border-radius: 10px 10px;
+}
