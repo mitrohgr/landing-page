@@ -10,18 +10,20 @@ html {
 
 body {
   margin: 0;
+  font-family: "Arial", "Helvetica", sans-serif;
 }
 
 .header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #1f2937;
+  background-color: gold;
 }
 
 .logo {
   font-size: 24px;
-  color: #f9faf8;
+  color: #008080;
+  text-shadow: 1px 1px 2px rgb(181, 31, 56);
   font-weight: bold;
   text-align: center;
 }
@@ -32,11 +34,19 @@ body {
   justify-content: space-evenly;
   gap: 24px;
   font-size: 18px;
-  color: #e5e7eb;
+  color: #008080;
+  text-shadow: 1px 1px 2px rgb(181, 31, 56);
 }
 
 .links li {
   text-align: center;
+  color: #008080;
+}
+
+.header .logo a,
+.links a {
+  text-decoration: none;
+  color: #008080;
 }
 
 .hero {
@@ -44,7 +54,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background-color: #1f2937;
+  background-color: gold;
   padding: 60px 0;
   gap: 32px;
 }
@@ -62,30 +72,40 @@ body {
 
 .hero .container2 {
   flex-basis: 650px;
-  padding: 110px;
   text-align: center;
-  background-color: grey;
-  color: #e5e7eb;
+  overflow: hidden;
+}
+
+.hero .container2 img {
+  height: auto;
+  max-width: 100%;
 }
 
 .hero .text {
   font-size: 48px;
   font-weight: 900;
-  color: #f9faf8;
+  color: #008080;
+  text-shadow: 1px 1px 2px rgb(57, 34, 34), 0 0 1em rgb(211, 211, 227), 0 0 0.2em rgb(187, 187, 220);
 }
 
 .hero .subtext {
   font-size: 18px;
-  color: #e5e7eb;
+  color: #008080;
 }
 
 .hero button {
   font-size: 18px;
-  background-color: #3882f6;
-  color: #f9faf8;
+  background-color: #008080;
+  color: gold;
   padding: 8px 24px;
-  border-radius: 10px 10px;
+  border-radius: 50% 20% / 10% 40%;
+  box-shadow: 1px 1px 2px rgb(181, 31, 56);;
   border-style: none;
+  cursor: pointer;
+}
+
+.info {
+  background-color: #008080;
 }
 
 .info .text {
@@ -93,6 +113,8 @@ body {
   font-weight: bold;
   text-align: center;
   padding: 50px 0;
+  color: gold;
+  text-shadow: 1px 1px 2px rgb(29, 1, 1), 0 0 1em rgb(147, 147, 186), 0 0 0.2em rgb(219, 160, 181);
 }
 
 .info .container1 {
@@ -100,7 +122,9 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 64px;
+  gap: 84px;
+  padding-bottom: 50px;
+  overflow: hidden;
 }
 
 .info .container2 {
@@ -115,22 +139,27 @@ body {
 .info .subtext {
   text-align: center;
   font-size: 18px;
+  color: gold;
 }
 
 .info .box {
-  width: 150px;
-  height: 150px;
-  border: 4px solid #3882f6;
-  border-radius: 10px 10px;
+  width: 200px;
+  height: 200px;
+}
+
+.info .container2 img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 .quote {
-  margin-top: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 80px 0;
-  background-color: #e5e7eb;
+  background-color: gold;
 }
 
 .quote .container {
@@ -143,14 +172,14 @@ body {
 }
 
 .quote .text {
-  color: #1f2937;
+  color: #008080;
   font-size: 36px;
   font-weight: 100;
   font-style: italic;
 }
 
 .quote .subtext {
-  color: #1f2937;
+  color: #008080;
   font-size: 18px;
   font-weight: 900;
   text-align: right;
@@ -162,6 +191,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 80px 10px;
+  background-color: #008080;
 }
 
 .action .container {
@@ -170,7 +200,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 40px 50px;
-  background-color: #3882f6;
+  background-color: gold;
   border-radius: 10px 10px;
   gap: 16px;
 }
@@ -184,7 +214,7 @@ body {
 .action .text,
 .action .subtext {
   font-size: 18px;
-  color: #f9faf8;
+  color: #008080;
 }
 
 .action .text {
@@ -194,19 +224,22 @@ body {
 
 .action button {
   font-size: 18px;
-  background-color: #3882f6;
-  color: #f9faf8;
+  background-color: gold;
+  color: #008080;
   padding: 8px 24px;
-  border-radius: 10px 10px;
-  border: 2px solid white;
+  border-radius: 50% 20% / 10% 40%;
+  border: 2px solid #008080;
+  box-shadow: 1px 1px 2px rgb(181, 31, 56);
+  cursor: pointer;
 }
 
 .footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #1f2937;
+  background-color: gold;
   padding: 30px 0;
-  color: #e5e7eb;
+  color: #008080;
   font-size: 18px;
+  
 }
