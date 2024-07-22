@@ -48,5 +48,5 @@ Here, I create an entire web page from a given design of a landing page. The des
 
 ## Contact and Support
 
-+ Feel free to contact ***mitrohgr_03505*** for project-related queries.
++ Feel free to contact ***mitrohgr_03505*** on discord for project-related queries.
 + No further feature modifications or improvements will be done to this project.
