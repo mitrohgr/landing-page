@@ -45,6 +45,7 @@ Here, I create an entire web page from a given design of a landing page. The des
   + [Alexas_Fotos](https://pixabay.com/users/alexas_fotos-686414/) for the [Banner image](https://pixabay.com/photos/mario-luigi-yoschi-characters-fun-1557240/).
   + [Boukaih](https://unsplash.com/@boukaih) for the [Mario image](https://unsplash.com/photos/super-mario-in-blue-and-red-shirt-figurine-2AsfYaYTbpI).
   + [Taha](https://unsplash.com/@exploringzhongguo) for the [Luigi image](https://unsplash.com/photos/a-toy-figure-of-a-man-with-a-green-hat-r0DAP0V72Uc), the [Yoshi image](https://unsplash.com/photos/a-lego-toy-of-a-man-holding-a-gun-34iMRP0r85s), and the [Princess Peach image](https://unsplash.com/photos/a-lego-figure-of-a-woman-with-a-crown-on-her-head-LFmQs9EBVJ0).
++ *Credit* for the ***README*** goes to [ritaly's README sheet](https://github.com/ritaly/README-cheatsheet).
 
 ## Contact and Support
 
